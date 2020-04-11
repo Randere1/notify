@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allpost">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/all_post_bar"
+        android:background ="#FFFFFF"/>
+
+
+    <FrameLayout
+        android:id="@+id/frame_i"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/frame_border">
+
+        <LinearLayout
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/post_something"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/inputs"
+            android:ems="10"
+            android:hint="say somthing"
+            android:inputType="textMultiLine"
+            android:padding="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/post_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="click icon to add image:" />
+
+        <ImageButton
+            android:id="@+id/post_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/wallpaper4" />
+
+        </LinearLayout>
+
+            <ImageButton
+            android:id="@+id/post_imagei"
+            android:layout_width="355dp"
+            android:layout_height="370dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+                android:visibility="gone"
+            app:srcCompat="@drawable/wallpaper4" />
+
+
+
+        <Button
+            android:id="@+id/Post_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="174dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:text="post" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

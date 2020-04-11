@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setprofile">
+
+    <FrameLayout
+        android:id="@+id/frame_i"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/frame"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/set_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="45dp"
+
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/set_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="(@john)"
+        android:layout_marginTop="250dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/set_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter your Full Name*"
+        android:textAllCaps="true"
+        android:layout_marginTop="310dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/set_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter Your Country*"
+        android:textAllCaps="true"
+        android:layout_marginTop="370dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/set_county"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter your county*"
+        android:textAllCaps="true"
+        android:layout_marginTop="430dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/set_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="(LEADER or ORDINARY CIVILIAN)"
+        android:textAllCaps="true"
+        android:layout_marginTop="540dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/inputs"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/set_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/btn"
+        android:text="save"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginRight="20dp"
+        android:text="write your position in the society below,either LEADER
+                                (chief,subchief,pastor,DC,DO,CC,religious leader,Govoner,Senator)or ORDINARY CIVILIAN"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:inputType="textMultiLine"/>
+
+</RelativeLayout>

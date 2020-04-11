@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_Messages"
+        android:title="Messages"
+        android:icon="@drawable/mmsg"/>
+
+
+
+
+    <item
+        android:id="@+id/nav_Advertisement"
+        android:title="Advertisement" />
+
+
+
+    <group  android:id="@+id/nav_add"
+        android:title="vacancy"
+        android:visible="true"
+
+        >
+
+        <item
+            android:id="@+id/nav_Bussines"
+            android:title="Bussiness"
+            android:icon="@drawable/adds"
+            />
+
+     <item
+            android:id="@+id/nav_jon"
+            android:title="job vacancy"
+         android:icon="@drawable/adds"
+           />
+        <item
+            android:id="@+id/nav_house"
+            android:title="house vacancy"
+            android:icon="@drawable/adds"
+           />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_Leaders"
+        android:title="Office Notice"
+
+        />
+
+
+    <group  android:id="@+id/nav_addv"
+        android:title="office"
+        android:visible="true"
+        >
+
+        <item
+            android:id="@+id/nav_chief"
+            android:title="chief"
+            android:icon="@drawable/leader"
+
+            />
+        <item
+            android:id="@+id/nav_mca"
+            android:title="Mca"
+            android:icon="@drawable/leader"
+
+            />
+        <item
+            android:id="@+id/nav_mp"
+            android:title="Mp"
+            android:icon="@drawable/leader"
+
+            />
+        <item
+            android:id="@+id/nav_do"
+            android:title="D.o"
+            android:icon="@drawable/leader"
+
+            />
+        <item
+            android:id="@+id/nav_dc"
+            android:title="D.c"
+            android:icon="@drawable/leader"
+
+            />
+        <item
+            android:id="@+id/nav_senetor"
+            android:title="Senetor"
+            android:icon="@drawable/leader"
+
+            />
+        <item
+            android:id="@+id/nav_govoner"
+            android:title="Govoner"
+            android:icon="@drawable/leader"
+
+            />
+
+    </group>
+
+
+    <item
+        android:id="@+id/nav_myacc"
+        android:title="My Account"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+
+
+</menu>

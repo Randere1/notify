@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chief">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/chief_bar"
+        android:background ="#FFFFFF">
+
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/chief_post"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/post"
+            android:background="@drawable/roundcorner"
+            android:layout_marginLeft="240dp"></ImageButton>
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/first_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chief_Posts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+
+
+            />
+    </FrameLayout>
+
+
+</RelativeLayout>
